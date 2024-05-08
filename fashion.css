@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  display: wrap;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://static.wixstatic.com/media/c837a6_60fe596fc6124c9dabbb90df008507d3~mv2.jpg/v1/fill/w_1899,h_681,fp_0.50_0.62,q_85,usm_0.66_1.00_0.01,enc_auto/welcome%20image_2.jpg);
+  background-size: 2500px 700px;
+  object-fit: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+}
+
+.web-container {
+  width: 100%;
+}
+
+.heading {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-size: 2rem;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.nav-start {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.6rem;
+  font-size: 1rem;
+  margin-left: 2rem;
+}
+
+.item:hover {
+  text-decoration: underline;
+}
+
+.item {
+  color: rgb(44, 41, 41);
+  font-family: "Times New Roman", Times, serif;
+}
+.title {
+  font-size: 1.9rem;
+  margin-right: 21rem;
+}
+.icon1 {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+.icon2 {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.nav-end {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
+.login {
+  color: rgb(44, 41, 41);
+}
+.h1 {
+  font-size: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottom-heading {
+  height: 18.4rem;
+  font-size: 1.4rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 1rem;
+}
+.newin {
+  height: 6rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(28, 27, 27);
+}
+.n {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
+
+.container1 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  -ms-layout-grid-line: 0.3px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid rgb(16, 15, 15);
+  background-color: rgb(249, 247, 247);
+  background-color: rgb(19, 19, 19);
+  gap: 1px;
+}
+.bg {
+  background-color: white;
+}
+
+.Product {
+  display: grid;
+
+  border: 2px solid black;
+  padding: 1px;
+  gap: 1px;
+}
+
+.nav-s {
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 4rem;
+}
+
+.nav-content {
+  padding-left: 2rem;
+  font-family: sans-serif;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.container1 {
+  border: 0.5px solid black;
+}
+.p {
+  height: 300px;
+  width: 300px;
+}
+
+.container2 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.a {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  gap: 1px;
+  border: 0.1px solid rgb(59, 59, 59);
+  position: relative;
+}
+.container3 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.products-1 {
+  background-image: url(https://static.wixstatic.com/media/84770f_a367e7fe0eb348278450b8404f15d7d3~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/84770f_a367e7fe0eb348278450b8404f15d7d3~mv2.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.text-t {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.dt {
+  margin-bottom: 2rem;
+}
+.ab {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  gap: 1px;
+  border: 0.1px solid rgb(59, 59, 59);
+  position: relative;
+}
+
+.container4 {
+  height: 770px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+    background-size: 2500px 700px;
+  background-image: url(https://static.wixstatic.com/media/84770f_f773360f419b4515aca99e1f2e25abe5~mv2.jpg/v1/fill/w_1899,h_770,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_f773360f419b4515aca99e1f2e25abe5~mv2.jpg);
+}
+.ha {
+  font-size: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hb {
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.button-2 {
+  height: 3rem;
+  width: 7rem;
+  font-size: 1rem;
+  margin-top: 5rem;
+}
+
+.content1 {
+  background-image: url(https://static.wixstatic.com/media/c837a6_d77c4034c021478080bf935abecfc8b6~mv2.jpg/v1/fill/w_636,h_641,al_c,q_85,enc_auto/c837a6_d77c4034c021478080bf935abecfc8b6~mv2.jpg);
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  display: flex;
+}
+
+.ct-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.c-dt {
+  height: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 37rem;
+  margin-bottom: 2rem;
+}
+
+.bigbo {
+  height: 400px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  border: 1px solid black;
+  gap: 1px;
+}
+.b1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(https://thebeautyholic.com/wp-content/uploads/2020/05/work-from-home-wear-out-ideas.jpg);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.b1:hover {
+  background-image: url(https://img.freepik.com/premium-photo/stylish-model-pretty-young-woman-fashionable-black-coat-beige-shirt-poses-near-vintage-glass-building-city-cute-fashion-girl-elegant-clothes-outdoors-trendy-wear-women_338491-9335.jpg);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  color: white;
+  background-repeat: no-repeat;
+}
+.a-1 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.text-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+.b2 {
+  padding: 3rem;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://w0.peakpx.com/wallpaper/283/818/HD-wallpaper-girl-fashion-model-makeup.jpg);
+  object-fit: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-color: rgb(207, 186, 160);
+}
+
+.b2:hover {
+  padding: 2rem;
+  background-image: url(https://w0.peakpx.com/wallpaper/275/34/HD-wallpaper-fashion-model-model-fashion-girl-pose.jpg);
+  object-fit: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+}
+
+.footer {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+
+  grid-template-areas:
+    "fb1 fb2 fb3 fb4 "
+    "fb1 fb2 fb3 fb4 "
+    "fb1 fb2 fb3 fb4 "
+    "fb1 fb2 fb3 fb4 ";
+}
+
+.fb1 {
+  grid-area: fb1;
+  /* background-color: antiquewhite; */
+  background-color: white;
+  color: rgb(89, 87, 87);
+}
+.fb2 {
+  grid-area: fb2;
+  background-color: white;
+  color: rgb(89, 87, 87);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+.fb3 {
+  grid-area: fb3;
+  background-color: white;
+  color: rgb(89, 87, 87);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+.fb4 {
+  grid-area: fb4;
+  background-color: brown;
+}
+.fb5 {
+  grid-area: fb5;
+  background-color: chocolate;
+}
+.fb6 {
+  grid-area: fb6;
+  background-color: cornflowerblue;
+}
+
+.h2 {
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  margin-top: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.dis {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.h3 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.inputbox {
+  width: 40rem;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: transparent;
+  border-style: outset;
+}
+.op {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button {
+  font-size: 1rem;
+  width: 5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  background: transparent;
+  outline-style: initial;
+}
+.f {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.enter {
+  margin-bottom: 1.7rem;
+}
+
+.h- {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 1.5rem;
+}
+.link {
+  margin-top: 5px;
+  color: rgb(89, 87, 87);
+}
+
+.fb4 {
+  grid-area: fb4;
+  background-color: white;
+  color: rgb(89, 87, 87);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: white;
+}
+.last-footer {
+  padding-left: 1rem;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  border: 1px solid blac1remk;
+  gap: 2rem;
+}
+.t-1 {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  gap: 2rem;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.t-2 {
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  gap: 2rem;
+  align-items: center;
+  padding-right: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
